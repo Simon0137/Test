@@ -8,12 +8,6 @@ namespace Test
             : base("DBConnection")
             { }
 
-        public DbSet<User> Users 
-        {
-            get
-            {
-                return Set<User>();
-            }
-        }
+        public DbSet<User> Users { get; set; }
     }
 }
